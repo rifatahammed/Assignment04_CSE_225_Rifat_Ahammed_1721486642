@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void BubbleSort:: BubbleSorter(int *arr, int n)
+void BubbleSort:: BubbleSorter(int arr[], int n)
 {
   
     bool swapped = true;
