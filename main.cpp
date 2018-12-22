@@ -10,6 +10,10 @@ int main()
   int n,counting;
   
   
+  
+  
+  
+  
   cout<<"Creating a selection sort object:\n";
   SelectionSort ss;
   cout<<"Creating an unsorted array for sorting with selection sort:\n";
@@ -24,6 +28,12 @@ int main()
   for(counting=0;i<sizeof(arr);i++){
     cout<<arr[i]<<endl;
   }
+  
+  
+  
+  
+  
+  
   
   
     cout<<"Creating a Insertion Sort object:\n";
@@ -41,3 +51,23 @@ int main()
     cout<<arr2[i]<<endl;
   }
   
+  
+  
+  
+  
+  
+  
+    cout<<"Creating a  Merge Sort object:\n";
+  MergeSort ms;
+  cout<<"Creating an unsorted array for sorting with Marge Sort:\n";
+    int arr3[8] = {14,33,27,10,35,19,48,44};
+  cout<<"Inserted array is:\n";
+  for(counting=0;i<sizeof(arr3);i++){
+    cout<<arr3[i]<<endl;
+  }
+    n = sizeof(arr3)/sizeof(arr3[0]);
+    ms.merge_sort(arr3,0,n-1);
+  cout<<"After sorting the array is now:\n";
+  for(counting=0;i<sizeof(arr3);i++){
+    cout<<arr3[i]<<endl;
+  }
