@@ -8,6 +8,8 @@ using namespace std;
 int main()
 {
   int n,counting;
+  
+  
   cout<<"Creating a selection sort object:\n";
   SelectionSort ss;
   cout<<"Creating an unsorted array for sorting with selection sort:\n";
@@ -21,5 +23,21 @@ int main()
   cout<<"After sorting the array is now:\n";
   for(counting=0;i<sizeof(arr);i++){
     cout<<arr[i]<<endl;
+  }
+  
+  
+    cout<<"Creating a Insertion Sort object:\n";
+  InsertionSort is;
+  cout<<"Creating an unsorted array for sorting with Insertion Sort:\n";
+    int arr2[8] = {14,33,27,10,35,19,48,44};
+  cout<<"Inserted array is:\n";
+  for(counting=0;i<sizeof(arr2);i++){
+    cout<<arr2[i]<<endl;
+  }
+    n = sizeof(arr2)/sizeof(arr2[0]);
+    is.InsertionSorter(arr2,n);
+  cout<<"After sorting the array is now:\n";
+  for(counting=0;i<sizeof(arr2);i++){
+    cout<<arr2[i]<<endl;
   }
   
