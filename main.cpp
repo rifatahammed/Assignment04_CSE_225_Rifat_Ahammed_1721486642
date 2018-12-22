@@ -71,3 +71,30 @@ int main()
   for(counting=0;i<sizeof(arr3);i++){
     cout<<arr3[i]<<endl;
   }
+
+  
+  
+  
+  
+  
+  
+  
+
+      cout<<"Creating a Bubble Sort object:\n";
+  BubbleSort bs;
+  cout<<"Creating an unsorted array for sorting with Bubble Sort:\n";
+    int arr4[8] = {14,33,27,10,35,19,48,44};
+  cout<<"Inserted array is:\n";
+  for(counting=0;i<sizeof(arr4);i++){
+    cout<<arr4[i]<<endl;
+  }
+    n = sizeof(arr4)/sizeof(arr4[0]);
+    bs.BubbleSorter(arr4,n);
+  cout<<"After sorting the array is now:\n";
+  for(counting=0;i<sizeof(arr4);i++){
+    cout<<arr4[i]<<endl;
+  }
+
+  return 0;
+  
+}
