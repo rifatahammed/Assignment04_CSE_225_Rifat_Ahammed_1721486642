@@ -4,6 +4,6 @@ class BubbleSort
 {
 public:
 
-    void BubbleSorter(int *arr, int n);
+    void BubbleSorter(int arr[], int n);
 };
 #endif // BUBBLESORT_H_INCLUDED
